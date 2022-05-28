@@ -1,0 +1,10 @@
+The aim of this project is to build a reddit r/WallStreetBet sentiment tracker based on the stock tickers mentioned. The project will later expand to google news articles, twitter and other social media platforms.
+
+The main idea is that the data will be updated every five minutes, and pass the data to a sentiment caculator. The workflow will be managed using airflow. (Other potenial technologies, Kafka, MongoDB, elastic search...) 
+
+Database: 
+Stock ticker table - PostgreSQL 
+reddit data - PostgreSQL w/ timescale DB hypertable
+Google news data - PostgreSQL
+Yahoo finance for the real-time performance - PostgreSQL
+
